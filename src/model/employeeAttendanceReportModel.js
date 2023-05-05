@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize')
 const sequelize = require('../config/db')
 
-const emoloyeeAttendance=sequelize.define('eve_acc_employee_attendance_report',{
+const emoloyeeAttendanceReport=sequelize.define('eve_acc_employee_attendance_report',{
 
     id:{
         type: Sequelize.INTEGER,
@@ -78,7 +78,7 @@ const emoloyeeAttendance=sequelize.define('eve_acc_employee_attendance_report',{
     },
 })
 
-module.exports=emoloyeeAttendance
+module.exports=emoloyeeAttendanceReport
 
 
 

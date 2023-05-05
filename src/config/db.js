@@ -1,10 +1,12 @@
+require('dotenv').config()
 const Sequelize=require('sequelize')
+
 const sequelize=new Sequelize(
-    'blog-app',
+    process.env.DATABASE,
     'root',
-    'root123',{
+    process.env.PASSWORD,{
         dialect:'mysql',
-        host:'localhost',
+        host:'localhost'
 
     }
 )
