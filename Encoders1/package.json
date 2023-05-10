@@ -1,0 +1,19 @@
+{
+  "name": "encoders1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/soumendutta/evenodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/soumendutta/evenodejs/issues"
+  },
+  "homepage": "https://bitbucket.org/soumendutta/evenodejs#readme"
+}
